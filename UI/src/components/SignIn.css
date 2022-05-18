@@ -1,0 +1,84 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 1200px; */
+    /* width: 1200px; */
+    /* background-image: url (""); */
+    /* background-color: blue; */
+
+}
+
+.bk-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+.header {
+    object-fit: contain;
+    height:100px;
+    width: 200px;
+}
+
+.logo {
+    object-fit: contain;
+    height:100px;
+    width: 200px;
+    object-position: left top;
+}
+
+.input-container {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius:12px;
+    margin: 150px;
+    height: 400px;
+    width: 300px;
+
+}
+
+
+h3 {
+    padding: 50px;
+    text-align: left;
+    color: red;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+}
+
+.centered-input {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.centered-btn {
+    margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+   background-color: red;
+   border-radius: 7px;
+   height: 30px;
+   width: 150px;
+   cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(160, 9, 9);
+    transform: translateY(4px);
+}
