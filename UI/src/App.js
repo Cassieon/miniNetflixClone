@@ -1,13 +1,15 @@
-import SignIn from './components/SignIn'
-import NavBar from './Navbar';
+import SignIn from './components/SignIn';
+import NavBar from './components/Navbar';
+import HeroSection from './Hero';
 import './App.css';
 
 function App() {
   
   return (
-    <div classNanme="App">
+    <div className="App">
       <SignIn />
       <NavBar/>
+      <HeroSection />
     </div>
   );
 }
