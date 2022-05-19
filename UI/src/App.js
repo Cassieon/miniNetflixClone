@@ -11,6 +11,7 @@ import SignIn from './components/SignIn';
 import Content from './components/Content'; 
 import Favorites from './components/Favorites';
 import SignUp from './components/SignUp'; 
+import Navbar from './components/navbar';
 
 
 
@@ -21,13 +22,8 @@ import SignUp from './components/SignUp';
       <div>
         <Router>
 
-          <div>
-            <nav>
-              <Link to='/'>SignIn</Link>
-              <Link to='/signup'>SignUp</Link>
-              <Link to='/content'>Content</Link>
-              <Link to='/favorites'>Favorites</Link>
-            </nav>
+          <div className='upper-header'>
+           <Navbar/>
           </div>
 
           <Routes>

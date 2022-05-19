@@ -1,0 +1,27 @@
+.navbar {
+    color: white;
+    font-size: 14px;
+
+} 
+.container {
+    display: flex;
+    padding: 0px 45px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+.container img {
+    height: 35px;
+} 
+.right img {
+    width:30px;
+    border-radius: 5px;
+    height: 25px;
+    object-fit: cover;
+} 
+
+.right{
+    display: flex;
+    align-items: center;
+}
