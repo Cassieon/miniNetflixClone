@@ -1,5 +1,5 @@
 import SignIn from './components/SignIn'
-import NavBar from './Navbar';
+// import NavBar from './Navbar';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div classNanme="App">
       <SignIn />
-      <NavBar/>
+      {/* <NavBar/> */}
     </div>
   );
 }
