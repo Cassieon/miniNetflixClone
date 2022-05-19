@@ -3,10 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 1200px; */
-    /* width: 1200px; */
-    /* background-image: url (""); */
-    /* background-color: blue; */
 
 }
 
@@ -108,3 +104,8 @@ input[type=text] {
     background-color: rgb(160, 9, 9);
     transform: translateY(4px);
 }
+
+
+
+
+
