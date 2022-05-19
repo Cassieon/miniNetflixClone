@@ -3,10 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 1200px; */
-    /* width: 1200px; */
-    /* background-image: url (""); */
-    /* background-color: blue; */
 
 }
 
@@ -19,9 +15,9 @@
 
 
 .header {
-    object-fit: contain;
     height:100px;
-    width: 200px;
+    width: 100%;
+    /* background-color: black; */
 }
 
 .logo {
@@ -29,17 +25,19 @@
     height:100px;
     width: 200px;
     object-position: left top;
+    border-radius: 7px;
 }
 
 .input-container {
-    background-color: black;
+    background-color: rgba(3, 3, 3, 0.774);
     justify-content: center;
     align-items: center;
+    position: sticky;
     border-radius:12px;
     margin: 150px;
     height: 400px;
     width: 300px;
-
+    font-size: x-large;
 }
 
 
@@ -47,7 +45,10 @@ h3 {
     padding: 50px;
     text-align: left;
     color: red;
-    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    
 }
 
 .centered-input {
@@ -59,6 +60,23 @@ h3 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+input[type=text] {
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(202, 202, 202);
+    background-color: rgb(75, 75, 75);
+  }
+
+  input[type=password] {
+    height: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(202, 202, 202);
+    background-color: rgb(75, 75, 75);
+  }
+
 
 .centered-btn {
     margin: 0;
@@ -76,9 +94,18 @@ h3 {
    height: 30px;
    width: 150px;
    cursor: pointer;
+   font-family: 'Nanum Gothic', sans-serif;
+   color:aliceblue;
+   font-weight: 900;
+   font-size: large;
 }
 
 .btn:active {
     background-color: rgb(160, 9, 9);
     transform: translateY(4px);
 }
+
+
+
+
+

@@ -13,14 +13,16 @@ class SignIn extends React.Component {
                     <div className="input-container">
                         <h3>Sign In</h3>
                             <div className="centered-input">
-                            <input
+                            <input 
                                 type="text"
+                                placeholder="Enter email"
                                 // value={props.value}
                                 // onChange={event => console.log("value changed!")}
                             />
                             <div>
                             <input
-                                type="text"
+                                type="password"
+                                placeholder="Password"
                                 // value={props.value}
                                 // onChange={event => console.log("value changed!")}
                             />
