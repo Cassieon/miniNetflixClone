@@ -4,14 +4,16 @@ import React from 'react';
 import {BrowserRouter as Router, 
   Routes,
   Route,
-  Link,
+  //Link,
   } from 'react-router-dom';
 
 import SignIn from './components/SignIn';
-import Content from './components/Content'; 
+import Content from './components/worstcase'; 
 import Favorites from './components/Favorites';
 import SignUp from './components/SignUp'; 
 import Navbar from './components/navbar';
+//import Content from './components/content'
+
 
 
 
@@ -34,7 +36,7 @@ import Navbar from './components/navbar';
             </Route>
             <Route path='/content' element={<Content/>}>
             </Route>
-            <Route path='/favorites' element={<Favorites/>}>     
+            <Route path='/favorites' element={ <Favorites/>}>     
             </Route>
             <Route path="*" element={<SignIn/>}>
               {/* Make a 404 page ?*/}
