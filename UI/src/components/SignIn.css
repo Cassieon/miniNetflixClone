@@ -17,13 +17,12 @@
 .header {
     height:100px;
     width: 100%;
-    /* background-color: black; */
 }
 
 .logo {
     object-fit: contain;
-    height:100px;
-    width: 200px;
+    height:200px;
+    width: 250px;
     object-position: left top;
     border-radius: 7px;
 }
@@ -35,9 +34,9 @@
     position: sticky;
     border-radius:12px;
     margin: 150px;
-    height: 400px;
-    width: 300px;
-    font-size: x-large;
+    height: 500px;
+    width: 400px;
+    font-size: xx-large;
 }
 
 
@@ -55,14 +54,15 @@ h3 {
     margin: 0;
     padding: 10px;
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 input[type=text] {
-    height: 20px;
+    height: 30px;
+    width: 250px;
     margin: 5px;
     border-radius: 5px;
     color: rgb(202, 202, 202);
@@ -70,7 +70,8 @@ input[type=text] {
   }
 
   input[type=password] {
-    height: 20px;
+    height: 30px;
+    width: 250px;
     margin: 5px;
     border-radius: 5px;
     color: rgb(202, 202, 202);
@@ -90,14 +91,15 @@ input[type=text] {
 
 .btn {
    background-color: red;
+   margin: 5px;
    border-radius: 7px;
-   height: 30px;
-   width: 150px;
+   height: 35px;
+   width: 250px;
    cursor: pointer;
    font-family: 'Nanum Gothic', sans-serif;
    color:aliceblue;
    font-weight: 900;
-   font-size: large;
+   font-size: x-large;
 }
 
 .btn:active {

@@ -31,6 +31,10 @@ class SignIn extends React.Component {
                             <button className="btn">
                                 Sign in
                             </button>
+
+                            <button className="btn">
+                                Sign up
+                            </button>
                             </div>
 
                         </div>
