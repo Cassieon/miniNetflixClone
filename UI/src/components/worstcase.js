@@ -1,6 +1,7 @@
 import { PlayArrow } from "@mui/icons-material/";
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import "./worstcase.css";
+import React from 'react'
 
 export default function Content({shows}) {
   return (
@@ -27,7 +28,7 @@ export default function Content({shows}) {
         <span className="desc">
           The Circle is a revolving door of players, at least until there are only very few days left. 
         </span>
-        <div className="banner-fade"/>
+    
           <div className="show-info">
             <div className="show-score">98% Match</div>
             <div className="show-year">2022</div>
