@@ -4,17 +4,15 @@ import React from 'react';
 import {BrowserRouter as Router, 
   Routes,
   Route,
-  //Link,
+  Link,
   } from 'react-router-dom';
-
-import SignIn from './components/SignIn';
+import Home from './components/Home';
+import SignIn from './components/Home';
 import Content from './components/worstcase'; 
 import Favorites from './components/Favorites';
 import SignUp from './components/SignUp'; 
 import Navbar from './components/navbar';
 //import Content from './components/content'
-
-
 
 
   class App extends React.Component  {
@@ -30,7 +28,7 @@ import Navbar from './components/navbar';
 
           <Routes>
 
-            <Route path='/' element={<SignIn/>}>
+            <Route path='/' element={<Home/>}>
             </Route>
             <Route path='/signup' element={<SignUp/>}>   
             </Route>
