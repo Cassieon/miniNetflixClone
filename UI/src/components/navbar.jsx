@@ -3,7 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useState } from 'react'; 
-
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -20,16 +20,17 @@ const Navbar = () => {
        <div className='container'>
             <div className='left'>
                 <img src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png" alt="logo"/>
-            <span>Home</span>
-            <span>TV Shows</span>
+            
+            <span><Link to='/'>Home</Link></span>
+            
+            <span><Link to='/content'>TV Shows</Link></span>
             <span>Movies</span>
             <span>News & Popular</span> 
-            <span>My List</span>
+            <span><Link to ='favorites'>My List</Link></span>
             </div>
             <div className='right'>
                 <SearchIcon className='icon'/>
                   <span>KID</span>
-                  <span>DVD</span>
                 <NotificationsActiveIcon className='icon'/>
                   <img src="https://pbs.twimg.com/media/DmtcXxYUcAYshhQ?format=jpg&name=240x240" alt="profile"/>
                 <div className='profile'>

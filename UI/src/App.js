@@ -1,6 +1,5 @@
 import SignUp from './components/SignUp'
 import SignIn from './components/SignIn';
-import SignUp from './components/SignUp';
 import Content from './components/Content'; 
 import Favorites from './components/Favorites';
 import NavBar from './components/Navbar';
@@ -13,9 +12,8 @@ import React from 'react';
 import {BrowserRouter as Router, 
   Routes,
   Route,
-  Link,
+  //Link,
   } from 'react-router-dom';
-
 
 
   class App extends React.Component  {
@@ -38,7 +36,7 @@ import {BrowserRouter as Router,
             <Route path={["/Navbar", "/Hero", "/Carousel"]} component={(<NavBar/>), (<HeroSection/>), (<Carousel/>)} />
             <Route path='/content' element={<Content/>}>
             </Route>
-            <Route path='/favorites' element={<Favorites/>}>     
+            <Route path='/favorites' element={ <Favorites/>}>     
             </Route>
             <Route path="*" element={<SignIn/>}>
               {/* Make a 404 page ?*/}
