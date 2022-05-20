@@ -12,6 +12,9 @@ function App() {
       <SignIn />
       <NavBar/>
       <HeroSection />
+      <div>
+        <h1>Anime</h1>
+      </div>
       <Carousel />
     </div>
   );
