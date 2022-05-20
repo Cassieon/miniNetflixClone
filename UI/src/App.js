@@ -1,4 +1,12 @@
-
+import SignUp from './components/SignUp'
+import SignIn from './components/SignIn';
+import Content from './components/Content'; 
+import Favorites from './components/Favorites';
+import NavBar from './components/Navbar';
+import Navbar from './components/navbar.jsx';
+import HeroSection from './components/Hero';
+import Carousel from './components/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import React from 'react'; 
 import {BrowserRouter as Router, 
@@ -6,15 +14,6 @@ import {BrowserRouter as Router,
   Route,
   //Link,
   } from 'react-router-dom';
-
-import SignIn from './components/SignIn';
-import Content from './components/worstcase'; 
-import Favorites from './components/Favorites';
-import SignUp from './components/SignUp'; 
-import Navbar from './components/navbar';
-//import Content from './components/content'
-
-
 
 
   class App extends React.Component  {
@@ -32,8 +31,9 @@ import Navbar from './components/navbar';
 
             <Route path='/' element={<SignIn/>}>
             </Route>
-            <Route path='/signup' element={<SignUp/>}>   
+            <Route path='/signUp' element={<SignUp/>}>   
             </Route>
+            <Route path={["/Navbar", "/Hero", "/Carousel"]} component={(<NavBar/>), (<HeroSection/>), (<Carousel/>)} />
             <Route path='/content' element={<Content/>}>
             </Route>
             <Route path='/favorites' element={ <Favorites/>}>     
@@ -47,7 +47,8 @@ import Navbar from './components/navbar';
       </div>
       )
     }
-  
   }
 
-  export default App; 
+  export default App;
+
+
