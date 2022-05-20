@@ -1,3 +1,4 @@
+import SignUp from './components/SignUp'
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
 import Content from './components/Content'; 
