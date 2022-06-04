@@ -33,7 +33,6 @@ import {BrowserRouter as Router,
             </Route>
             <Route path='/signUp' element={<SignUp/>}>   
             </Route>
-            <Route path={["/Navbar", "/Hero", "/Carousel"]} component={(<NavBar/>), (<HeroSection/>), (<Carousel/>)} />
             <Route path='/content' element={<Content/>}>
             </Route>
             <Route path='/favorites' element={ <Favorites/>}>     

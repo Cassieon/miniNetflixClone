@@ -17,13 +17,13 @@ export default function Content({shows}) {
           alt=""
         />
         <div className="buttons">
-          <button className="play">
-            <PlayArrow style={{fontSize: 30}}/>
-            <span>Resume</span>
-          </button>
-          <button className="more">
-            <ThumbUpIcon style={{fontSize: 20}}/>
-          </button>
+            <button className="play">
+              <PlayArrow style={{fontSize: 30}}/>
+              <span>Resume</span>
+            </button>
+            <button className="more">
+              <ThumbUpIcon style={{fontSize: 20}}/>
+            </button>
         </div>
         <span className="desc">
           The Circle is a revolving door of players, at least until there are only very few days left. 
