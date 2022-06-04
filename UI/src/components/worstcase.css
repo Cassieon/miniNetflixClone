@@ -81,7 +81,15 @@
   margin-right: 15px;
   display: inline-block;
 } 
-
+.banner-fade {
+  height: 7.4rem;
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      rbga(37,37,0.61),
+      #111
+  );
+}
 .show-info {
   font-weight: bold;
   font-size: 18px;

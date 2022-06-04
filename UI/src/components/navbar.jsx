@@ -1,4 +1,5 @@
 import './navbar.css'
+import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
@@ -22,7 +23,6 @@ const Navbar = () => {
                 <img src="https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png" alt="logo"/>
             
             <span><Link to='/'>Home</Link></span>
-            
             <span><Link to='/content'>TV Shows</Link></span>
             <span>Movies</span>
             <span>News & Popular</span> 

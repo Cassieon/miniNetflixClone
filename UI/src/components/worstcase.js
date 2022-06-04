@@ -1,6 +1,7 @@
 import { PlayArrow } from "@mui/icons-material/";
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import "./worstcase.css";
+import React from 'react'
 
 export default function Content({shows}) {
   return (
@@ -16,17 +17,18 @@ export default function Content({shows}) {
           alt=""
         />
         <div className="buttons">
-          <button className="play">
-            <PlayArrow style={{fontSize: 30}}/>
-            <span>Resume</span>
-          </button>
-          <button className="more">
-            <ThumbUpIcon style={{fontSize: 20}}/>
-          </button>
+            <button className="play">
+              <PlayArrow style={{fontSize: 30}}/>
+              <span>Resume</span>
+            </button>
+            <button className="more">
+              <ThumbUpIcon style={{fontSize: 20}}/>
+            </button>
         </div>
         <span className="desc">
           The Circle is a revolving door of players, at least until there are only very few days left. 
         </span>
+    
           <div className="show-info">
             <div className="show-score">98% Match</div>
             <div className="show-year">2022</div>
@@ -34,7 +36,6 @@ export default function Content({shows}) {
           </div>
         {/* Episode api */}
       </div>
-    </section>
-   
+    </section> 
   );
 }
